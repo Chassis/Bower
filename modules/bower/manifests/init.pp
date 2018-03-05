@@ -1,6 +1,7 @@
+# A Chassis extension to install Bower on your Chassis server
 class bower (
 	$config,
-	$path = "/vagrant/extensions/bower",
+	$path = '/vagrant/extensions/bower',
 ) {
 	exec { 'install bower':
 		path    => [ '/bin/', '/sbin/', '/usr/bin/', '/usr/sbin/' ],
