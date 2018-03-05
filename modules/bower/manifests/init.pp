@@ -1,4 +1,5 @@
 class bower (
+	$config,
 	$path = "/vagrant/extensions/bower",
 ) {
 	exec { 'install bower':
